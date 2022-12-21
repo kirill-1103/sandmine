@@ -1,0 +1,50 @@
+.main {
+    background-color: rgb(252, 221, 118)
+}
+
+.background-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+
+.background {
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    width: 45%;
+    padding: 50px 60px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.background span, input, button {
+    width: 100%;
+    margin: 4px 0;
+}
+
+.div-for-table {
+    margin: 7% auto;
+    width: 90%;
+}
+
+.div-search-button {
+    float: right;
+    display: inline-block;
+    width: 50%;
+    margin-top: 15px;
+}
+
+label {
+    font-size: 20px;
+    float: left;
+}
+
+

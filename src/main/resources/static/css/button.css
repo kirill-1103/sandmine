@@ -1,0 +1,24 @@
+/* LESS */
+.button {
+    background-color: #F9A825;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.button:hover {
+    background: rgb(200, 150, 40);
+}
+
+.with-light-background {
+    background-color: #FFEE58
+}
+
+.with-light-background:hover {
+    background-color: #ffeea7;
+}
