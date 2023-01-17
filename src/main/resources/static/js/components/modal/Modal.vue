@@ -44,6 +44,7 @@ export default {
 }
 
 .modal {
+  max-height: 500pt;
   position: relative;
   padding: 30px 30px 40px 30px;
   width: 40%;

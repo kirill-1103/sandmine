@@ -242,6 +242,7 @@ export default {
             for (let i of zones) {
               this.zones.set(i['zoneId'], i['name']);
             }
+            console.log(this.zones)
             let config = {headers: {'Content-Type': 'application/json'}}
             axios.post(
                 "/api/worker/ids",
@@ -306,6 +307,7 @@ export default {
       // console.log(worker)
       // console.log(this.workers)
       // console.log(stats)
+      console.log(stats)
       return {
         mine_stats: [
           stats.date,

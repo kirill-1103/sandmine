@@ -72,7 +72,7 @@ export default {
                 break;
             }
              localStorage.setItem('role',workerType)
-            localStorage.setItem('name',response.data.workerFullname)
+            localStorage.setItem('name',response.data.workerFullName)
           })
           .catch(e => {
             this.wrongLoginCredentials = true

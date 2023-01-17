@@ -58,6 +58,15 @@
             <version>3.0.0</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.neo4j/neo4j-ogm-bolt-native-types -->
+        <dependency>
+            <groupId>org.neo4j</groupId>
+            <artifactId>neo4j-ogm-bolt-native-types</artifactId>
+            <version>3.2.39</version>
+            <scope>provided</scope>
+        </dependency>
+
+
 
 
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
